@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>  Reference</title>
+    <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a title="  Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="index.html"> Docs</a> (100% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="index.html"> Reference</a>
+        <img id="carat" src="img/carat.png" />
+          Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/Config.html">Config</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Extensions/URLSession.html">URLSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Extensions.html#/c:objc(cs)NSURLSessionDataTask">URLSessionDataTask</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Protocols/URLSessionDataTaskProtocol.html">URLSessionDataTaskProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/URLSessionProtocol.html">URLSessionProtocol</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Structs/AllStats.html">AllStats</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Index.html">Index</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Key.html">Key</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MeiliSearch.html">MeiliSearch</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/MeiliSearch/Error.html">– Error</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PrettySystemInfo.html">PrettySystemInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PrettySystemInfo/Global.html">– Global</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/PrettySystemInfo/Process.html">– Process</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchParameters.html">SearchParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchParameters.html#/s:11MeiliSearch0B10ParametersV6FilterV">– Filter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SearchResult.html">SearchResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Setting.html">Setting</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Stat.html">Stat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SystemInfo.html">SystemInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SystemInfo/Global.html">– Global</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/SystemInfo/Process.html">– Process</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Update.html">Update</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Update/Result.html">– Result</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Structs/Version.html">Version</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            
+            <p align="center">
+  <img src="https://github.com/meilisearch/meilisearch-swift/blob/master/assets/logo.svg" alt="MeiliSearch-Swift" width="200" height="200" />
+</p>
+
+<h1 align="center">MeiliSearch-Swift</h1>
+
+<h4 align="center">
+  <a href="https://github.com/meilisearch/MeiliSearch">MeiliSearch</a> | 
+  <a href="https://www.meilisearch.com">Website</a> | 
+  <a href="https://blog.meilisearch.com">Blog</a> | 
+  <a href="https://fr.linkedin.com/company/meilisearch">LinkedIn</a> | 
+  <a href="https://twitter.com/meilisearch">Twitter</a> | 
+  <a href="https://meilisearch.github.io/meilisearch-swift/">Documentation</a> | 
+  <a href="https://docs.meilisearch.com/faq">FAQ</a>
+</h4>
+
+<p align="center">
+  <a href="https://github.com/meilisearch/meilisearch-swift/actions"><img src="https://github.com/meilisearch/meilisearch-swift/workflows/Swift/badge.svg" alt="Build Status"></a>
+  <a href="https://github.com/meilisearch/meilisearch-swift/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-informational" alt="License"></a>
+  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-MeiliSearch-blue.svg?logo=slack" alt="Slack"></a>
+</p>
+
+<p align="center">⚡ Lightning Fast, Ultra Relevant, and Typo-Tolerant Search Engine MeiliSearch client written in Swift 🍎</p>
+
+<p><strong>MeiliSearch-Swift</strong> is a client for <strong>MeiliSearch</strong> written in Swift. <strong>MeiliSearch</strong> is a powerful, fast, open-source, easy to use and deploy search engine. Both searching and indexing are highly customizable. Features such as typo-tolerance, filters, and synonyms are provided out-of-the-box.
+For more information about features go to <a href="https://meilisearch.github.io/meilisearch-swift/">our Swift documentation</a>.</p>
+<h2 id='features' class='heading'>Features</h2>
+
+<ul>
+<li>Complete full API wrapper</li>
+<li>Easy to install, deploy, and maintain</li>
+<li>Highly customizable</li>
+<li>No external dependencies</li>
+<li>Thread safe</li>
+<li>Uses Codable</li>
+</ul>
+<h2 id='get-started' class='heading'>Get started</h2>
+<h3 id='swift-package-manager' class='heading'>Swift Package Manager</h3>
+
+<p>The <a href="https://swift.org/package-manager/">Swift Package Manager</a> is a tool for automating the distribution of Swift code and is integrated into the <code>swift</code> compiler.</p>
+
+<p>Once you have your Swift package set up, adding <strong>MeiliSearch-Swift</strong> as a dependency is as easy as adding it to the <code>dependencies</code> value of your <code>Package.swift</code>.</p>
+<pre class="highlight swift"><code><span class="nv">dependencies</span><span class="p">:</span> <span class="p">[</span>
+    <span class="o">.</span><span class="nf">package</span><span class="p">(</span><span class="nv">url</span><span class="p">:</span> <span class="s">"https://github.com/meilisearch/meilisearch-swift.git"</span><span class="p">)</span>
+<span class="p">]</span>
+</code></pre>
+<h2 id='basic-setup' class='heading'>Basic setup</h2>
+
+<p>Make sure to firstly setup your <code><a href="Structs/MeiliSearch.html">MeiliSearch</a></code> server. Please follow this getting started <a href="https://docs.meilisearch.com/guides/introduction/quick_start_guide.html">here</a>.</p>
+
+<p>To do a simply search using the client, you can create a Swift script like this:</p>
+<pre class="highlight swift"><code><span class="kd">import</span> <span class="kt">MeiliSearch</span>
+
+<span class="kd">func</span> <span class="nf">searchForMovies</span><span class="p">()</span> <span class="p">{</span>
+
+    <span class="c1">// Create a new client instance of MeiliSearch with the default host.</span>
+    <span class="k">let</span> <span class="nv">client</span> <span class="o">=</span> <span class="k">try!</span> <span class="kt">MeiliSearch</span><span class="p">()</span>
+
+    <span class="c1">// Create a new search request with "botman" as query.</span>
+    <span class="k">let</span> <span class="nv">searchParameters</span> <span class="o">=</span> <span class="kt">SearchParameters</span><span class="o">.</span><span class="nf">query</span><span class="p">(</span><span class="s">"botman"</span><span class="p">)</span>
+
+    <span class="c1">// Typealias that represents the result from Meili.</span>
+    <span class="kd">typealias</span> <span class="kt">MeiliResult</span> <span class="o">=</span> <span class="kt">Result</span><span class="o">&lt;</span><span class="kt">SearchResult</span><span class="o">&lt;</span><span class="kt">Movie</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Swift</span><span class="o">.</span><span class="kt">Error</span><span class="o">&gt;</span>
+
+    <span class="c1">// Call the function search and wait for the closure result.</span>
+    <span class="k">self</span><span class="o">.</span><span class="n">client</span><span class="o">.</span><span class="nf">search</span><span class="p">(</span><span class="kt">UID</span><span class="p">:</span> <span class="s">"movies"</span><span class="p">,</span> <span class="n">searchParameters</span><span class="p">)</span> <span class="p">{</span> <span class="p">(</span><span class="nv">result</span><span class="p">:</span> <span class="kt">MeiliResult</span><span class="p">)</span> <span class="k">in</span>
+        <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">searchResult</span><span class="p">):</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">searchResult</span><span class="p">)</span>
+        <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+            <span class="nf">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+<span class="kd">private</span> <span class="kd">struct</span> <span class="kt">Movie</span><span class="p">:</span> <span class="kt">Codable</span><span class="p">,</span> <span class="kt">Equatable</span> <span class="p">{</span>
+
+    <span class="k">let</span> <span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span>
+    <span class="k">let</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">let</span> <span class="nv">poster</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">let</span> <span class="nv">overview</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">let</span> <span class="nv">releaseDate</span><span class="p">:</span> <span class="kt">Date</span>
+
+    <span class="kd">enum</span> <span class="kt">CodingKeys</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="kt">CodingKey</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="n">id</span>
+        <span class="k">case</span> <span class="n">title</span>
+        <span class="k">case</span> <span class="n">poster</span>
+        <span class="k">case</span> <span class="n">overview</span>
+        <span class="k">case</span> <span class="n">releaseDate</span> <span class="o">=</span> <span class="s">"release_date"</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+</code></pre>
+<h2 id='functions' class='heading'>Functions</h2>
+
+<p>The current functions implemented are:</p>
+<h3 id='index' class='heading'>Index</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>createIndex(UID:_)</code></td>
+<td><code>POST - /indexes</code></td>
+</tr>
+<tr>
+<td><code>getIndex(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid</code></td>
+</tr>
+<tr>
+<td><code>getIndexes(:_)</code></td>
+<td><code>GET - /indexes</code></td>
+</tr>
+<tr>
+<td><code>updateIndex(UID:_)</code></td>
+<td><code>POST - /indexes/:index_uid</code></td>
+</tr>
+<tr>
+<td><code>DeleteIndex(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid</code></td>
+</tr>
+<tr>
+<td><code>DeleteAllIndexes</code></td>
+<td><code>DELETE - /indexes/:index_uid</code></td>
+</tr>
+</tbody></table>
+<h3 id='documents' class='heading'>Documents</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>addOrReplaceDocument(UID:document:primaryKey:_)</code></td>
+<td><code>POST - /indexes/:index_uid/documents</code></td>
+</tr>
+<tr>
+<td><code>addOrUpdateDocument(UID:document:primaryKey:_)</code></td>
+<td><code>PUT - /indexes/:index_uid/documents</code></td>
+</tr>
+<tr>
+<td><code>getDocument(UID:identifier:_)</code></td>
+<td><code>GET - /indexes/:index_uid/documents/:document_id</code></td>
+</tr>
+<tr>
+<td><code>getDocuments(UID:limit:_)</code></td>
+<td><code>GET - /indexes/:index_uid/documents</code></td>
+</tr>
+<tr>
+<td><code>DeleteDocument(UID:identifier:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/documents/:document_id</code></td>
+</tr>
+<tr>
+<td><code>DeleteAllDocuments(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/documents</code></td>
+</tr>
+<tr>
+<td><code>DeleteBatchDocuments(UID:documentsUID:_)</code></td>
+<td><code>POST - /indexes/:index_uid/documents/delete-batch</code></td>
+</tr>
+</tbody></table>
+<h3 id='search' class='heading'>Search</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>search(UID:_:_)</code></td>
+<td><code>GET - /indexes/:index_uid/search</code></td>
+</tr>
+</tbody></table>
+<h3 id='updates' class='heading'>Updates</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getUpdate(UID:_:_)</code></td>
+<td><code>GET - /indexes/:index_uid/updates/:updateId</code></td>
+</tr>
+<tr>
+<td><code>getAllUpdates(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/updates</code></td>
+</tr>
+</tbody></table>
+<h3 id='keys' class='heading'>Keys</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>keys(masterKey:_)</code></td>
+<td><code>GET - /keys</code></td>
+</tr>
+<tr>
+<td><code>getAllUpdates(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/updates</code></td>
+</tr>
+</tbody></table>
+<h3 id='settings' class='heading'>Settings</h3>
+<h4 id='all-settings' class='heading'>All Settings</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getSetting(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings</code></td>
+</tr>
+<tr>
+<td><code>updateSetting(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings</code></td>
+</tr>
+<tr>
+<td><code>resetSetting(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings</code></td>
+</tr>
+</tbody></table>
+<h4 id='synonyms' class='heading'>Synonyms</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getSynonyms(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/synonyms</code></td>
+</tr>
+<tr>
+<td><code>updateSynonyms(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/synonyms</code></td>
+</tr>
+<tr>
+<td><code>resetSynonyms(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/synonyms</code></td>
+</tr>
+</tbody></table>
+<h4 id='stop-words' class='heading'>Stop-words</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getStopWords(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/stop-words</code></td>
+</tr>
+<tr>
+<td><code>updateStopWords(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/stop-words</code></td>
+</tr>
+<tr>
+<td><code>resetStopWords(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/stop-words</code></td>
+</tr>
+</tbody></table>
+<h4 id='ranking-rules' class='heading'>Ranking rules</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getRankingRules(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/ranking-rules</code></td>
+</tr>
+<tr>
+<td><code>updateRankingRules(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/ranking-rules</code></td>
+</tr>
+<tr>
+<td><code>resetRankingRules(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/ranking-rules</code></td>
+</tr>
+</tbody></table>
+<h4 id='distinct-attribute' class='heading'>Distinct attribute</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getDistinctAttribute(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/distinct-attribute</code></td>
+</tr>
+<tr>
+<td><code>updateDistinctAttribute(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/distinct-attribute</code></td>
+</tr>
+<tr>
+<td><code>resetDistinctAttribute(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/distinct-attribute</code></td>
+</tr>
+</tbody></table>
+<h4 id='searchable-attributes' class='heading'>Searchable attributes</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getSearchableAttributes(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/searchable-attributes</code></td>
+</tr>
+<tr>
+<td><code>updateSearchableAttributes(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/searchable-attributes</code></td>
+</tr>
+<tr>
+<td><code>resetSearchableAttributes(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/searchable-attributes</code></td>
+</tr>
+</tbody></table>
+<h4 id='displayed-attributes' class='heading'>Displayed attributes</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getDisplayedAttributes(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/displayed-attributes</code></td>
+</tr>
+<tr>
+<td><code>updateDisplayedAttributes(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/displayed-attributes</code></td>
+</tr>
+<tr>
+<td><code>resetDisplayedAttributes(UID:_)</code></td>
+<td><code>DELETE - /indexes/:index_uid/settings/displayed-attributes</code></td>
+</tr>
+</tbody></table>
+<h4 id='accept-new-fields' class='heading'>Accept new fields</h4>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>getAcceptNewFields(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/settings/accept-new-fields</code></td>
+</tr>
+<tr>
+<td><code>updateAcceptNewFields(UID:_:_)</code></td>
+<td><code>POST - /indexes/:index_uid/settings/accept-new-fields</code></td>
+</tr>
+</tbody></table>
+<h3 id='stats' class='heading'>Stats</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>stat(UID:_)</code></td>
+<td><code>GET - /indexes/:index_uid/stats</code></td>
+</tr>
+<tr>
+<td><code>allStats(:_)</code></td>
+<td><code>GET - /stats</code></td>
+</tr>
+</tbody></table>
+<h3 id='health' class='heading'>Health</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>health(:_)</code></td>
+<td><code>GET - /health</code></td>
+</tr>
+<tr>
+<td><code>updateHealth(health:_)</code></td>
+<td><code>PUT - /health</code></td>
+</tr>
+</tbody></table>
+<h3 id='version' class='heading'>Version</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>version(:_)</code></td>
+<td><code>GET - /version</code></td>
+</tr>
+</tbody></table>
+<h3 id='system-information' class='heading'>System information</h3>
+
+<table><thead>
+<tr>
+<th>Swift function</th>
+<th>Similar to API call</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><code>PrettySystemInfo(:_)</code></td>
+<td><code>GET - /sys-info/pretty</code></td>
+</tr>
+<tr>
+<td><code>systemInfo(:_)</code></td>
+<td><code>GET - /sys-info</code></td>
+</tr>
+</tbody></table>
+<h2 id='demo' class='heading'>Demo</h2>
+<h3 id='vapor' class='heading'>Vapor</h3>
+
+<p>Please check the Vapor Demo source code <a href="https://github.com/meilisearch/meilisearch-swift/tree/master/Demos/VaporDemo">here</a>.</p>
+<h3 id='perfect' class='heading'>Perfect</h3>
+
+<p>Please check the Perfect Demo source code <a href="https://github.com/meilisearch/meilisearch-swift/tree/master/Demos/PerfectDemo">here</a>.</p>
+<h2 id='contributing' class='heading'>Contributing</h2>
+
+<p>Hey! We&rsquo;re glad you&rsquo;re thinking about contributing to <strong>MeiliSearch-Swift</strong>! If you think something is missing or could be improved, please open issues and pull requests. If you&rsquo;d like to help this project grow, we&rsquo;d love to have you! To start contributing, checking <a href="https://github.com/meilisearch/MeiliSearch-Swift/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22">issues tagged as &ldquo;good-first-issue&rdquo;</a> is a good start!</p>
+<h2 id='contact' class='heading'>Contact</h2>
+
+<p>Feel free to contact us about any questions you may have:</p>
+
+<ul>
+<li>At <a href="mailto:bonjour@meilisearch.com">bonjour@meilisearch.com</a>: English or French is welcome! 🇬🇧 🇫🇷</li>
+<li>Via the chat box available on every page of <a href="https://docs.meilisearch.com/">our documentation</a> and on <a href="https://www.meilisearch.com/">our landing page</a>.</li>
+<li>Join our <a href="https://slack.meilisearch.com/">Slack community</a>.</li>
+<li>By opening an issue.</li>
+</ul>
+
+<p>Any suggestion or feedback is highly appreciated. Thank you for your support!</p>
+
+<p>Swift programming language from Apple</p>
+
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2020-05-06)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
